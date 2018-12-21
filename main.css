@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+#top-nav {
+    /* background-color: blue; */
+    width: 100%;
+    height: 115px;
+    margin: 0px;
+    padding: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+#search-form {
+    padding-top: 2vh;
+}
+
+#main-logo {
+    height: 3vh;
+    /* background-color: red; */
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+#apps-img {
+    height: 20px;
+    width: 20px;
+    margin-right: 1vw;
+}
+
+#bell-img {
+    height: 20px;
+    width: 20px;
+}
+
+#search-line {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    align-items: center;
+    /* background-color: purple; */
+}
+
+#search-line li {
+    display: inline;
+}
+
+#main-search {
+    margin: 0;
+    /* background-color: green; */
+    width: 35vw;
+    height: 4vh;
+    margin-right: 45vw;
+}
+
+#tabs-line li {
+    display: inline-block;
+    height: 3.6vh;
+}
+
+#tabs-line li div {
+    text-align: center;
+    padding: 30px 15px 8px 15px;
+}
+
+#tabs-line li div a {
+    text-decoration: none;
+    color: grey;
+    font-size: 11pt;
+}
+
+#tabs-line li div a:hover {
+    color: black;
+}
+
+.active {
+    border-bottom: 3px solid blue;
+}
+
+.active a {
+    color: blue !important  ;
+}
+
+#all {
+    margin-left: 0.5vw !important;
+}
+
+#tabs-line {
+    display: flex;
+    list-style-type: none;
+    margin-left: 8vw;
+    margin-bottom: 0;
+    height: 6vh;
+    margin-top: 0;
+    padding: 0;
+    width: 35vw;
+    /* background-color: orange; */
+}
+
+#more {
+    margin-right: 6vw;
+}
+
+#timer-div {
+    margin-left: 9vw;
+}
+
+#timer-div p {
+    color: grey;
+    font-size: 11pt
+}
+
+#search-results {
+    margin-left: 9vw;
+    width: 33vw;
+    padding: 0;
+}
+
+#search-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.result-title {
+    color: blue;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.result-title:hover {
+    text-decoration: underline blue;
+}
+
+.result-link {
+    text-decoration: none;
+    color: green;
+}
+
+.result-description {
+    margin: 0;
+}

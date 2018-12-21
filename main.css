@@ -9,7 +9,7 @@ body {
 #top-nav {
     /* background-color: blue; */
     width: 100%;
-    height: 115px;
+    height: 130px;
     margin: 0px;
     padding: 0;
     border-bottom: 1px solid lightgrey;
@@ -37,6 +37,18 @@ body {
     width: 20px;
 }
 
+#microphone-img { 
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+#search-img {
+    height: 22px;
+    width: 22px;
+    color: blue;
+}
+
 #search-line {
     display: flex;
     list-style-type: none;
@@ -53,10 +65,24 @@ body {
 
 #main-search {
     margin: 0;
-    /* background-color: green; */
+    border: 0;
+    width: 30vw;
+    height: 3vh;
+    margin-left: 15px;
+}
+
+#main-search:focus {
+    outline: none;
+}
+
+#bar-wrapper {
+    display: flex;
     width: 35vw;
-    height: 4vh;
+    height: 5vh;
+    border: 2px solid lightgray;
     margin-right: 45vw;
+    border-radius: 25px;
+    align-items: center;
 }
 
 #tabs-line li {
@@ -67,6 +93,7 @@ body {
 #tabs-line li div {
     text-align: center;
     padding: 30px 15px 8px 15px;
+    height: 63px;
 }
 
 #tabs-line li div a {
@@ -78,6 +105,7 @@ body {
 #tabs-line li div a:hover {
     color: black;
 }
+
 
 .active {
     border-bottom: 3px solid blue;
